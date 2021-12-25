@@ -1,12 +1,12 @@
 <androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <com.kabouzeid.appthemehelper.common.prefs.supportv7.ATEPreferenceCategory android:title="@string/pref_header_library">
+    <com.kabouzeid.appthemehelper.common.prefs.supportv7.ATEPreferenceCategory android:title="Tab Options">
 
         <com.codewizard.miter.coding_wizard_pref.LibraryPreference
             app:iconSpaceReserved="false"
             android:key="library_categories"
-            android:summary="@string/pref_summary_library_categories"
+            android:summary="Categoires"
             android:title="@string/library_categories" />
 
         <com.kabouzeid.appthemehelper.common.prefs.supportv7.ATESwitchPreference
